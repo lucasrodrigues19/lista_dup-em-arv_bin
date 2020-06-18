@@ -1,0 +1,15 @@
+Tamplate.txt
+ Created on: 16 de jun de 2020
+     Author: lucas.rodrigues
+
+     
+Baseado nos templates (Material de apoio) da implementação da Árvore de Busca Binária, 
+da Lista Duplamente Encadeada e na Figura abaixo, crie uma árvore para armazenar os seguintes dados referentes a clientes de um plano de saúde:
+nome do cliente (string com 70 caracteres), empresa (string com 40 caracteres), valor_plano (float) e dependentes (se houver).
+Os dependentes deverão ficar armazenados em uma Lista Duplamente Encadeada, a qual deverá conter os seguintes campos:
+nome do dependente (string com 70 caracteres) e grau de parentesco (string com 30 caracteres). 
+A organização da árvore deve ser baseada no campo nome. 
+Após a inserção de 10 clientes, faça a busca pelo campo nome e, caso ele seja encontrado, exiba a empresa onde trabalha, o valor do plano de saúde e os dependentes (se houver).
+Na sequência, execute a remoção de um cliente o qual deverá ser solicitado pelo usuário. Por fim, exiba todos os clientes em ordem crescente pelo nome.
+OBS: para a lista duplamente encadeada, utilize somente as funções de inserção e exibição. *
+     
